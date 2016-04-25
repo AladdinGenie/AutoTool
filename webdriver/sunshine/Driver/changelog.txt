@@ -1,0 +1,42 @@
+  ----------firefox 2.41.0 ---------- 
+v2.41.0
+=======
+WebDriver:
+ * Update to support native events for Firefox 28 (removed native event
+   support for Firefox 26). Native events are now supported for the
+   following Firefox versions:
+
+   17 (immediately previous ESR release)
+   24 (current ESR release)
+   27 (immediately previous release
+   28 (current release)
+   
+   
+  ----------IEDriver 2.41.0 (2014-03-27)----------  
+  Download version 2.41.0 for (recommended) 32 bit Windows IE or 64 bit Windows IE
+   Version number notation guide: 
+The version number of the IEDriverServer.exe is in the pattern as follows:
+
+  major.minor.build.revision
+
+The "major" and "minor" fields are synchronized to releases of the Selenium
+project. Changes in the "build" field indicate interim releases made publicly
+available via the project downloads page. Changes in "revision" field indicate
+private releases checked into the prebuilts directory of the source tree, but
+not made generally available on the downloads page.
+
+v2.41.0.0
+=========
+ * Release to synchronize with release of Selenium project.
+ 
+ ----------ChromeDriver v2.9 (2014-01-31)----------
+Supports Chrome v31-34
+Resolved issue 665: Use /data/local/tmp for command line flags on user builds [OS-Android, Pri-0]
+Resolved issue 696: Return window handle to App window (like Google Keep) in command driver.getWindowHandles [Pri-0]
+Resolved issue 694: Update http://chromedriver.storage.googleapis.com/LATEST_RELEASE for users to query for latest release and do automatic update in script [Pri-0]
+Resolved issue 690: Fix clicking on Map Area [Pri-0]
+Resolved issue 454: chromedriver didn't support Debian 7 [Pri-0]
+Resolved issue 638: chomedriver.exe 2.6 to 2.8 built on Win7 build bot always produce empty chromedriver.log on local windows machine. [Pri-0]
+Resolved issue 672: Wait 60 seconds for chrome to start up on all OS and 30 seconds for chrome shutdown on Mac and Linux. [Pri-0]
+Resolved issue 660: Port used for android adb forward leaks. [Pri-0]
+Resolved issue 676: LaunchApp method for launching Chrome apps using their ID [OS-All, Pri-0]

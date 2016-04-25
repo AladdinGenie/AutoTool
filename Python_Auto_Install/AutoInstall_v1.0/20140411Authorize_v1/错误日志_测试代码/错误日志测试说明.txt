@@ -1,0 +1,17 @@
+﻿错误日志测试——代码执行说明：
+执行脚本时，当log.log文件大小达到10M时，会产生一个新的日志文件；服务器日志目录中，最多有11个日志文件
+1、config.txt文件：
+	desfile：log.log文件的路径
+	num：将test.txt文件的内容写到log.log文件中的次数
+2、test.txt文件：
+	读入log.log的数据文件，大小为 9.96M
+3、将三个文件config.txt、test.txt、test_syserro.py放到服务器上
+4、执行脚本命令如下：
+	python test_syserro.py
+5、检验错误日志功能点：
+	使用CRT连接到服务器
+	进入日志所在目录（/sunshine/sunshine/logs/）:
+		该目录下的日志文件命名为：log.log;log.log.1;log.log.2
+		log.log.3;log.log.4;log.log.5;log.log.6;log.log.7;log.log.8
+		log.log.9;log.log.10
+		使用命令查看各文件的大小（10M=10485760）：ls -all

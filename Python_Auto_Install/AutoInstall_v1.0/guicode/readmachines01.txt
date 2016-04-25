@@ -1,0 +1,27 @@
+﻿#改程序运行逻辑：先查看Allmachine中的值是否为True，若为True，则依次打开所有的虚拟机；否则，查看MachineChoics中的值，若其中有值，则打开
+#		   MachineChoices中的值；若Allmachine中的值为非True，MachineChoices中没有值，则打开图形界面，选择需要打开的虚拟机
+#需要填写的几个参数变量
+#MachineChoices：这个参数如果里面有值时，则读取里面的值，打开的虚拟机为该参数里面的值
+#AllMachine：若该参数的值为Ture，则依次打开所有的虚拟机
+#vmx_dir：vmware应用程序的根目录
+#machinesdir：虚拟机存放的根目录
+#num：设置一次打开虚拟机的台数
+
+#虚拟机名称如下
+******************************************************************************************************
+1-win8-32-zh         2-win7-32-en         7-win8-64-en         8-win7-64-zh   10-win2k8-64-df
+11-RedHat5.4-x64-df  13-RedHat6.4-x32-df  14-win8-32-TW        15-win7-32-en  16-win2k3-32-zh
+18-RedHat5.4-x32-zh  19-RedHat6.4-x32-TW  20-SUSE11-x32-df     21-win8-32-hk  22-win7-32-TW
+23-win2k3-32-en      25-win2k8-64-en      26-RedHat5.4-x64-zh  29-win8-64-df  30-win2k3-64-TW
+33-RedHat5.4-x32-en  34-RedHat6.4-x32-zh  35-SUSE11-x32-zh     36-win8-32-en  37-win7-32-df
+38-win7-64-TW        39-win2k3-64-df      41-SUSE11-x64-zh     42-win8-64-hk
+*******************************************************************************************************
+#请填写好你要打开虚拟机的名称，放进MachineChoices中 ，若选中多个虚拟机名，用逗号‘,’隔开;逗号为英文符号下输入
+#例如：MachineChoices = [1-win8-32-zh,2-win7-32-en]
+#Input the name of machine
+MachineChoices = [11-RedHat5.4-x64-df]
+AllMachine = [false]
+vmx_dir = "C:\Program Files(x86)\VMware\VMware Workstation"
+machinesdir = "D:\zx\python"
+#每次打开虚拟机台数num表示
+step_num = 2 

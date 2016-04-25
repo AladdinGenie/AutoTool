@@ -1,0 +1,4 @@
+﻿#服务器端log文件
+desfile=/sunshine/sunshine/logs/log.log
+#将源文件读多少次到日志文件中
+num=2
