@@ -1,0 +1,9 @@
+{
+	"username" : "root",
+	"password" : "1",
+	"uid" : "10000",
+	"for_num" : "11",
+	"sleep" :"1000",
+	"select_num" : "10",
+	"url" : "http://192.168.65.96:8090"
+}

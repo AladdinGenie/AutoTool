@@ -1,0 +1,67 @@
+{
+    "errcode": 0,
+    "errmsg": "ok",
+    "policylist": [
+        {
+            "polname": "康宁定期保险",
+            "sellerno": "43070180000189",
+            "sellername": "周周",
+            "applno": "1132339494959",
+            "policyno": "p11448",
+            "status": "核保",
+            "poltype": "长期寿险",
+            "validdate": "20140829",
+            "termdate": "20150829",
+            "termcause": "!",
+            "premium": "10000.00",
+            "coverage": "117900.00",
+            "holder": "姜敏赫",
+            "insured": "李三",
+			"beneficiary": "李二",
+            "paytype": "期交",
+            "payterm": "10"
+        },
+		{
+            "polname": "康宁定期保险",
+            "sellerno": "43070180000189",
+            "sellername": "周周",
+            "applno": "1132339494959",
+            "policyno": "p11448",
+            "status": "核保",
+            "poltype": "长期寿险",
+            "validdate": "20140829",
+            "termdate": "20150829",
+            "termcause": "!",
+            "premium": "10000.00",
+            "coverage": "117900.00",
+            "holder": "刘云秀",
+            "insured": "李三",
+			"beneficiary": "李二",
+            "paytype": "期交",
+            "payterm": "10"
+        },
+		{
+            "polname": "康宁定期保险",
+            "sellerno": "43070180000189",
+            "sellername": "周周",
+            "applno": "1132339494959",
+            "policyno": "p11448",
+            "status": "核保",
+            "poltype": "长期寿险",
+            "validdate": "20140829",
+            "termdate": "20150829",
+            "termcause": "!",
+            "premium": "10000.00",
+            "coverage": "117900.00",
+            "holder": "林一",
+            "insured": "李三",
+			"beneficiary": "李二",
+            "paytype": "期交",
+            "payterm": "10"
+        }
+		
+		
+		
+		
+    ]
+}

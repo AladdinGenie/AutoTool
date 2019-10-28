@@ -1,0 +1,6 @@
+我的客户： tellercus
+我的签单-生效日期：tellerpolicy
+我的签单-申请日期：tellerapplypolicy
+保单查询：policy
+客户查询-姓名：customerlist
+客户查询-身份证：customer

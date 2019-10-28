@@ -1,0 +1,26 @@
+{
+    "errcode": 0,
+    "errmsg": "ok",
+    "customers": [
+        {
+            "name": "½ªÃôºÕ",
+            "idcard": "350823199102084621",
+            "level": "VIP¿Í»§",
+            "isvip": true,
+            "sex": "ÄÐ",
+            "birth": "1991-02-08",
+            "ext_fj": [
+                {
+                    "name": "***",
+                    "des": "***",
+                    "value": "***"
+                },
+                {
+                    "name": "***",
+                    "des": "***",
+                    "value": "***"
+                }
+            ]
+        }
+    ]
+}

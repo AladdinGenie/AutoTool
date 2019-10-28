@@ -1,0 +1,31 @@
+返回字段说明
+
+| 返回值字段   | 字段类型 | 字段说明
+| ---------- | -------- | ------
+| errcode    |  number  | 错误码
+| errmsg     |  string  | 错误信息
+| polname |  string  | 险种
+| sellerno |  string  | 销售工号
+| sellername |  string  | 销售人员姓名
+| applno |  string  | 投保单号
+| policyno |  string  | 保单号
+| status |  string  | 保单状态
+| poltype |  string  | 险种类型
+| validdate |  string  | 生效日期
+| paydate|  string  | 首期保费缴费日期
+| respdate|  string  | 回执核销日期
+| termdate|  string  | 合同终止日期
+| termcause|  string  | 合同终止原因
+| premium |  string  | 保费
+| coverage |  string  | 保额
+| holder |  string  | 投保人
+| insured |  string  | 被保人
+| paytype|  string | 缴费方式
+| payterm|  string | 缴费年期
+
+
+错误码说明
+
+| 错误码    | 错误信息 | 说明
+| --------- | ------  | ----
+| 10001     | invalid sellerno | 无此柜员工号信息

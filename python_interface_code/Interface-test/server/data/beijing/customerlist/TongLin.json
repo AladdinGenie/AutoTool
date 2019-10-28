@@ -1,0 +1,46 @@
+{
+    "errcode": 0,
+    "errmsg": "ok",
+    "customers": [
+        {
+            "name": "佟琳",
+            "idcard": "21031119851130004x",
+            "level": "VIP客户",
+            "isvip": true,
+            "sex": "女",
+            "birth": "1985-11-30",
+            "ext_fj": [
+                {
+                    "name": "***",
+                    "des": "***",
+                    "value": "***"
+                },
+                {
+                    "name": "***",
+                    "des": "***",
+                    "value": "***"
+                }
+            ]
+        },
+        {
+            "name": "TongLin",
+            "idcard": "210111198503063012",
+            "level": "普通客户",
+            "isvip": false,
+            "sex": "男",
+            "birth": "1985-03-06",
+            "ext_fj": [
+                {
+                    "name": "***",
+                    "des": "***",
+                    "value": "***"
+                },
+                {
+                    "name": "***",
+                    "des": "***",
+                    "value": "***"
+                }
+            ]
+        }
+    ]
+}

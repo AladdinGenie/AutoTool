@@ -1,0 +1,28 @@
+{
+    "errmsg": "ok",
+    "errcode": 0,
+    "customers": [
+        {
+            "name": "徐宁",
+            "idcard": "350583198510059251",
+            "level": "白金客户",
+            "sex": "M",
+            "birth": "1985-07-21"
+        },
+        {
+            "name": "张海波",
+            "idcard": "150424800415061",
+            "level": "普通客户",
+            "sex": "M",
+            "birth": "1980-04-15"
+        },
+        {
+            "name": "wanglilin",
+            "idcard": "150424800415058",
+            "level": "VIP客户",
+            "sex": "F",
+            "birth": "1980-04-15"
+        }
+    
+    ]
+}

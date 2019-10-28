@@ -1,0 +1,26 @@
+{
+    "errcode": 0,
+    "errmsg": "ok",
+    "customers": [
+        {
+            "name": "刘云秀",
+            "idcard": "350823199102084620",
+            "level": "普通客户",
+            "isvip": false,
+            "sex": "女",
+            "birth": "1991-02-08",
+            "ext_fj": [
+                {
+                    "name": "***",
+                    "des": "***",
+                    "value": "***"
+                },
+                {
+                    "name": "***",
+                    "des": "***",
+                    "value": "***"
+                }
+            ]
+        }
+    ]
+}

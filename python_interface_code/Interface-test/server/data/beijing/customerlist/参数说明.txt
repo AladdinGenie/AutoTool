@@ -1,0 +1,15 @@
+| 返回值字段     | 字段类型 | 字段说明
+| ------------  | -------- | ------
+| errcode       |  number  | 错误码
+| errmsg        |  string  | 错误信息
+| name          |  string  | 姓名
+| idcard        |  string  | 身份号
+| level         |  string  | 客户级别
+| isvip         |  boolean | 是否vip客户，是为true，不是为false
+| sex           |  string  | 性别
+| birth         |  string  | 出生年日
+| ext_fj        |  object array  | 福建扩展信息,各省扩展信息以此格式添加
+
+| 错误码    | 错误信息 | 说明
+| --------- | ------  | ----
+| 10001     | invalid idcard | 无此姓名

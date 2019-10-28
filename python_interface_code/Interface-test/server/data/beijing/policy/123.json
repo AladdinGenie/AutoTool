@@ -1,0 +1,32 @@
+{
+    "errcode": 0,
+    "errmsg": "ok",
+    "policylist": [
+        {
+            "polname": "康宁定期保险11",
+            "sellchannel": "个险",
+            "sellerno": "43070180000189",
+            "sellername": "李四",
+            "sellerphone": "13950333999",
+            "policyno": "2002430701S43000019896",
+            "status": "有效",
+            "poltype": "长期寿险",
+            "validdate": "20140829",
+            "termdate": "-1",
+            "termcause": "!",
+            "premium": "10000.00",
+            "coverage": "117900.00",
+            "holder": "李四",
+            "insured": "李三",
+            "beneficiary": "李二",
+            "paytype": "期交",
+            "payterm": "10",
+            "bank": "中国建设银行",
+            "bankacc": "43672355463565654",
+            "totalcount": "3",
+            "totalprem": "30000.00",
+            "lastpaydate": "20150202",
+            "nextpaydate": "20160201"
+        }
+    ]
+}

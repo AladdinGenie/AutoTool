@@ -1,0 +1,50 @@
+{
+    "errmsg": "ok",
+    "errcode": 0,
+    "policylist": [
+        {
+            "type": "425-¿µÄşÖÕÉí±£ÏÕ(2007ĞŞ¶©°æ)",
+            "sellerno": "110249K82010-8BS",
+            "sellername": "",
+            "applno": "",
+            "policyno": "2009110249425015018101",
+            "status": "K",
+            "poltype": "",
+            "validdate": "",
+            "termdate": "",
+            "termcause": "",
+            "primaryandrider": "M",
+            "sdate": "2009-09-29 00:00:00.0",
+            "edate": "9999-12-31 00:00:00.0",
+            "premium": "1420.00",
+            "coverage": "20000.00",
+            "holder": "ÕÅº£²¨",
+            "insured": "ÕÅº£²¨",
+            "paytype": "",
+            "payterm": "",
+            "beneficiary": ""
+        },
+        {
+            "type": "426-¿µÄş¶¨ÆÚ±£ÏÕ(2007ĞŞ¶©°æ)",
+            "sellerno": "110249K82010-8BS",
+            "sellername": "",
+            "applno": "",
+            "policyno": "2009110249426015000486",
+            "status": "K",
+            "poltype": "",
+            "validdate": "",
+            "termdate": "",
+            "termcause": "",
+            "primaryandrider": "M",
+            "sdate": "2009-09-17 00:00:00.0",
+            "edate": "9999-12-31 00:00:00.0",
+            "premium": "3780.00",
+            "coverage": "180000.00",
+            "holder": "Áõ²¨",
+            "insured": "Áõ²¨",
+            "paytype": "",
+            "payterm": "",
+            "beneficiary": ""
+        }
+    ]
+}

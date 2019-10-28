@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
+   <soapenv:Header>
+      <cl:HEADER xmlns:cl="http://www.e-chinalife.com/soa/">
+         <AUTH xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+         <FROMSYS>CMDS</FROMSYS>
+         <ORISYS>ECSS</ORISYS>
+         <RETCODE>1200</RETCODE>
+         <RETINFO> </RETINFO>
+         <ROUTE xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+         <SECURITY>
+            <SIGNATURE/>
+         </SECURITY>
+         <SVCCODE>CMDS-2002</SVCCODE>
+         <SVCNAME>QueryMobileFlagInforce</SVCNAME>
+         <SVCVER>1.0</SVCVER>
+         <TRANNO>20131127172158373298</TRANNO>
+         <TRANTIME>2014-11-07 18:58:28,484</TRANTIME>
+      </cl:HEADER>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ns:QueryPolicyByIdNoResponse xmlns:ns="http://www.e-chinalife.com/soa/">
+         <ns:return xsi:type="ax271:QueryPolicyByIdNoResponse" xmlns:ax271="http://queryPolicyByIdNo.server.soa.clap/xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ax271:policyInfoList xsi:type="ax271:PolicyInfoList">
+               <ax271:policyInfo xsi:type="ax271:PolicyInfo">
+                  <ax271:APPLNO>1</ax271:APPLNO>
+                  <ax271:BRANCHNO/>
+                  <ax271:CNTR_STAT/>
+                  <ax271:CNTR_TYPE>1</ax271:CNTR_TYPE>
+                  <ax271:EFF_DATE/>
+                  <ax271:EXTKEY1/>
+                  <ax271:EXTKEY2/>
+                  <ax271:EXTKEY3/>
+                  <ax271:MGR_BRANCH_NO>1</ax271:MGR_BRANCH_NO>
+                  <ax271:MR_TYPE/>
+                  <ax271:POLNO/>
+                  <ax271:POL_CODE/>
+                  <ax271:SALES_BRANCH_NO>1</ax271:SALES_BRANCH_NO>
+                  <ax271:SALES_CHANNEL>2</ax271:SALES_CHANNEL>
+                  <ax271:SALES_CODE>14124124</ax271:SALES_CODE>
+                  <ax271:SYSNO/>
+               </ax271:policyInfo>
+               <ax271:policyInfo xsi:type="ax271:PolicyInfo">
+                  <ax271:APPLNO>1</ax271:APPLNO>
+                  <ax271:BRANCHNO/>
+                  <ax271:CNTR_STAT/>
+                  <ax271:CNTR_TYPE>1</ax271:CNTR_TYPE>
+                  <ax271:EFF_DATE/>
+                  <ax271:EXTKEY1/>
+                  <ax271:EXTKEY2/>
+                  <ax271:EXTKEY3/>
+                  <ax271:MGR_BRANCH_NO>1</ax271:MGR_BRANCH_NO>
+                  <ax271:MR_TYPE/>
+                  <ax271:POLNO/>
+                  <ax271:POL_CODE/>
+                  <ax271:SALES_BRANCH_NO>1</ax271:SALES_BRANCH_NO>
+                  <ax271:SALES_CHANNEL>2</ax271:SALES_CHANNEL>
+                  <ax271:SALES_CODE>14124124</ax271:SALES_CODE>
+                  <ax271:SYSNO/>
+               </ax271:policyInfo>
+            </ax271:policyInfoList>
+         </ns:return>
+      </ns:QueryPolicyByIdNoResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:ns="http://www.e-chinalife.com/soa/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ax2101="http://queryPolicyByIdNo.server.soa.clap/xsd" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.e-chinalife.com/soa/">
+    <wsdl:documentation>QueryPolicyByIdNo</wsdl:documentation>
+    <wsdl:types>
+        <xs:schema xmlns:ax2102="http://queryPolicyByIdNo.server.soa.clap/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://www.e-chinalife.com/soa/">
+            <xs:import namespace="http://queryPolicyByIdNo.server.soa.clap/xsd"/>
+            <xs:element name="QueryPolicyByIdNo">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="QueryPolicyByIdNo" nillable="true" type="ax2102:QueryPolicyByIdNo"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="QueryPolicyByIdNoResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="ax2102:QueryPolicyByIdNoResponse"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://queryPolicyByIdNo.server.soa.clap/xsd">
+            <xs:complexType name="QueryPolicyByIdNo">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="EXTKEY1" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EXTKEY2" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EXTKEY3" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="IDNO" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="IDTYPE" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="QueryPolicyByIdNoResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="policyInfoList" nillable="true" type="ax2101:PolicyInfoList"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="PolicyInfoList">
+                <xs:sequence>
+                    <xs:element maxOccurs="unbounded" minOccurs="0" name="policyInfo" nillable="true" type="ax2101:PolicyInfo"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="PolicyInfo">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="APPLNO" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BRANCHNO" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CNTR_STAT" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CNTR_TYPE" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EFF_DATE" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EXTKEY1" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EXTKEY2" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EXTKEY3" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="MGR_BRANCH_NO" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="MR_TYPE" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="POLNO" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="POL_CODE" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="SALES_BRANCH_NO" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="SALES_CHANNEL" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="SALES_CODE" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="SYSNO" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="QueryPolicyByIdNoRequest">
+        <wsdl:part name="parameters" element="ns:QueryPolicyByIdNo"/>
+    </wsdl:message>
+    <wsdl:message name="QueryPolicyByIdNoResponse">
+        <wsdl:part name="parameters" element="ns:QueryPolicyByIdNoResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="QueryPolicyByIdNoPortType">
+        <wsdl:operation name="QueryPolicyByIdNo">
+            <wsdl:input message="ns:QueryPolicyByIdNoRequest" wsaw:Action="urn:QueryPolicyByIdNo"/>
+            <wsdl:output message="ns:QueryPolicyByIdNoResponse" wsaw:Action="urn:QueryPolicyByIdNoResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="QueryPolicyByIdNoSoap11Binding" type="ns:QueryPolicyByIdNoPortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="QueryPolicyByIdNo">
+            <soap:operation soapAction="urn:QueryPolicyByIdNo" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="QueryPolicyByIdNoSoap12Binding" type="ns:QueryPolicyByIdNoPortType">
+        <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="QueryPolicyByIdNo">
+            <soap12:operation soapAction="urn:QueryPolicyByIdNo" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="QueryPolicyByIdNoHttpBinding" type="ns:QueryPolicyByIdNoPortType">
+        <http:binding verb="POST"/>
+        <wsdl:operation name="QueryPolicyByIdNo">
+            <http:operation location="QueryPolicyByIdNo"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="QueryPolicyByIdNo">
+        <wsdl:port name="QueryPolicyByIdNoHttpSoap11Endpoint" binding="ns:QueryPolicyByIdNoSoap11Binding">
+            <soap:address location="http://192.168.65.78:8080/cmds/services/QueryPolicyByIdNo.QueryPolicyByIdNoHttpSoap11Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="QueryPolicyByIdNoHttpSoap12Endpoint" binding="ns:QueryPolicyByIdNoSoap12Binding">
+            <soap12:address location="http://192.168.65.78:8080/cmds/services/QueryPolicyByIdNo.QueryPolicyByIdNoHttpSoap12Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="QueryPolicyByIdNoHttpEndpoint" binding="ns:QueryPolicyByIdNoHttpBinding">
+            <http:address location="http://192.168.65.78:8080/cmds/services/QueryPolicyByIdNo.QueryPolicyByIdNoHttpEndpoint/"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

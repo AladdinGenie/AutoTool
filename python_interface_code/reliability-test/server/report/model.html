@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="static/jquery.min.js"></script>
+    <script type="text/javascript" src="static/bootstrap.min.js"></script>
+    <script type="text/javascript" src="static/report.js"></script>
+    <link href="static/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="static/report.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="cover">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center" style="padding-bottom: 30px;">
+            <h1 class="text-primary">中国人寿柜面接口测试报告</h1><br>
+            <h4 class=" text-primary">{{project}}{{version}}</h4>
+            <p class="text-muted text-right">测试时间：{{date}}</p>
+            <!--<a class="btn btn-lg btn-default">Click me</a>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-right" style="padding-bottom:5px;">
+              <a id="show_all" class="choice btn btn-primary btn-large">全部</a>
+              <a id="show_fail" class="choice btn btn-danger btn-large">不通过</a>
+              <a id="show_not_run" class="choice btn btn-warning btn-large">未执行</a>
+              <a id="show_pass" class="choice btn btn-success btn-large">通过</a>
+            </div>
+          </div>
+          <!--<div class="col-md-12">-->
+            <table class="table table-bordered table-responsive">
+              <thead>
+                {{content_head}}
+              </thead>
+              <tbody>
+                {{content_code}}
+              </tbody>
+            </table>
+          <!--</div>-->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

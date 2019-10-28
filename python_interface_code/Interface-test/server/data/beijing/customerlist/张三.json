@@ -1,0 +1,46 @@
+{
+    "errcode": 0,
+    "errmsg": "ok",
+    "customers": [
+        {
+            "name": "张三",
+            "idcard": "350583198210159281",
+            "level": "VIP客户",
+            "isvip": true,
+            "sex": "女",
+            "birth": "1975-10-01",
+            "ext_fj": [
+                {
+                    "name": "***",
+                    "des": "***",
+                    "value": "***"
+                },
+                {
+                    "name": "***",
+                    "des": "***",
+                    "value": "***"
+                }
+            ]
+        },
+        {
+            "name": "张三",
+            "idcard": "350583193827162731",
+            "level": "普通客户",
+            "isvip": false,
+            "sex": "男",
+            "birth": "1985-10-01",
+            "ext_fj": [
+                {
+                    "name": "***",
+                    "des": "***",
+                    "value": "***"
+                },
+                {
+                    "name": "***",
+                    "des": "***",
+                    "value": "***"
+                }
+            ]
+        }
+    ]
+}

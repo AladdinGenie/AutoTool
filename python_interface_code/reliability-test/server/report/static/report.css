@@ -1,0 +1,42 @@
+.mycontainer{
+    width: 95%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+table { table-layout: fixed;word-wrap:break-word;}
+th,td{
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    text-align: center;
+    height:42px;
+}
+td{
+    font-size: 13px;
+}
+th{
+    background: #e7e7e7;
+}
+.detail{
+    display: table-row;
+}
+.expand{
+    background: #f0f0f0;
+}
+.comment{
+    color: #orange;
+}
+.testpoint{
+    text-align: center;
+}
+.detail_info{
+    font-size: 12px;
+    text-align: left;
+    background: #f0f0f0;
+    line-height: 20px; /* 行距 */
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-all;
+}

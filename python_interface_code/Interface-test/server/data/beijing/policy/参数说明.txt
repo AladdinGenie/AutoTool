@@ -1,0 +1,34 @@
+返回字段说明
+
+| 返回值字段   | 字段类型 | 字段说明
+| ---------- | -------- | ------
+| errcode    |  number  | 错误码
+| errmsg     |  string  | 错误信息
+| polname |  string  | 险种
+| sellerno |  string  | 销售工号
+| sellchannel |  string  | 销售渠道
+| sellername |  string  | 销售人员姓名
+| sellerphone |  string  | 销售人员联系方式
+| policyno |  string  | 保单号
+| status |  string  | 保单状态
+| poltype |  string  | 险种类型
+| validdate |  string  | 生效日
+| termdate|  string  | 终止日
+| termcause|  string  | 终止原因
+| premium |  string  | 保费
+| coverage |  string  | 保额
+| holder |  string  | 投保人
+| insured |  string  | 被保人
+| beneficiary |  string  | 受益人
+| paytype |  string  | 缴费方式
+| payterm |  string  | 缴费年期
+| bank |  string  | 代扣银行
+| bankacc |  string  | 代扣账号
+| totalcount |  string  | 已缴保费期次
+| totalprem |  string  | 已缴保费合计
+| lastpaydate |  string  | 最近一次缴费日期
+| nextpaydate |  string  | 下次缴费日期
+
+| 错误码    | 错误信息 | 说明
+| --------- | ------  | ----
+| 10001     | invalid cntrno | 无此保单

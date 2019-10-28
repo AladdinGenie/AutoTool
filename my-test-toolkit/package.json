@@ -1,0 +1,21 @@
+{
+  "name": "my-test-toolkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./startup.js",
+    "install": "node ./build/selenium-setup.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nightwatch": "^0.9.21",
+    "selenium-standalone": "^6.15.6"
+  },
+  "dependencies": {
+    "chinese-random-name": "^0.1.3",
+    "npm": "^6.8.0"
+  }
+}

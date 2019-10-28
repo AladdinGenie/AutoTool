@@ -1,0 +1,34 @@
+| 返回值字段     | 字段类型 | 字段说明
+| ------------  | -------- | ------
+| errcode       |  number  | 错误码
+| errmsg        |  string  | 错误信息
+| name          |  string  | 姓名
+| type          |  string  | 身份类型, seller为营销员，customer为客户
+| idcard        |  string  | 身份号
+| level         |  string  | 客户级别
+| isvip         |  boolean | 是否vip客户，是为true，不是为false
+| telephone     |  string  | 电话,多个用逗号隔开
+| sex           |  string  | 性别
+| birth         |  string  | 出生年日
+| totalpolicy 	|  string  | 历年保单数
+| totalpolicy_H |  string  | 历年保单数(作为投保人)
+| totalpolicy_P |  string  | 历年保单数(作为被保人)
+| totalpolicy_HP|  string  | 历年保单数(同时作为投被保人)
+| validpolicy 	|  string  | 有效保单数
+| validpolicy_H |  string  | 有效保单数(作为投保人)
+| validpolicy_P |  string  | 有效保单数(作为被保人)
+| validpolicy_HP|  string  | 有效保单数(同时作为投被保人)
+| policypoint   |  string  | 保单积分
+| totalpremium  |  string  | 投保总额
+| policylist    |  string array   | 保单明细列表
+| sellerlist    |  object array  | 营销员列表，有效保单的营销员列表
+| sellername    |  string  | 营销员姓名
+| sellerno      |  string  | 营销员工号
+| selleraccount |  string  | 营销员云助理账号
+| ext_fj        |  object array  | 福建扩展信息,各省扩展信息以此格式添加
+
+错误码说明
+
+| 错误码    | 错误信息 | 说明
+| --------- | ------  | ----
+| 10001     | invalid idcard | 无此身份信息

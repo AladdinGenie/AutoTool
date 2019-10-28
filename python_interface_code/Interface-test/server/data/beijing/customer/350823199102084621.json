@@ -1,0 +1,49 @@
+{
+    "errcode": 0,
+    "errmsg": "ok",
+    "name": "姜敏赫",
+    "type": "customer",
+    "idcard": "350823199102084621",
+    "level": "VIP客户",
+    "isvip": true,
+    "telephone": "13599390728,13599392293",
+    "sex": "男",
+    "birth" : "1991-02-08",
+    "totalpolicy": "13",
+    "totalpolicy_H": "6",
+    "totalpolicy_p": "4",
+    "totalpolicy_HP": "3",
+    "validpolicy": "5",
+    "validpolicy_H": "2",
+    "validpolicy_P": "1",
+    "validpolicy_HP": "2",
+    "totalpremium": "48716.00",
+    "policypoint": "48256",
+    "policylist": [
+       
+    ],
+    "sellerlist": [
+        {
+            "sellername": "李四",
+            "sellerno": "12345",
+            "selleraccount": "12345"
+        },
+        {
+            "sellername": "王五",
+            "sellerno": "67890",
+            "selleraccount": "67890"
+        }
+    ],
+    "ext_fj": [
+        {
+            "name": "***",
+            "des": "***",
+            "value": "***"
+        },
+        {
+            "name": "***",
+            "des": "***",
+            "value": "***"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "errcode": 0,
+    "errmsg": "ok",
+    "policylist": [
+        {
+            "polname": "康宁定期保险",
+            "sellerno": "43070180000189",
+            "sellername": "张三",
+            "applno": "1132339494959",
+            "policyno": "2002430701S43000019896",
+            "status": "核保",
+            "poltype": "长期寿险",
+            "validdate": "20140829",
+            "termdate": "-1",
+            "termcause": "!",
+            "premium": "10000.00",
+            "coverage": "117900.00",
+            "holder": "李四",
+            "insured": "李三",
+            "paytype": "期交",
+            "payterm": "10"
+        }
+    ]
+}

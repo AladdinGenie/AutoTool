@@ -1,0 +1,26 @@
+{
+    "errcode": 0,
+    "errmsg": "ok",
+    "customers": [
+        {
+            "name": "徐宁",
+            "idcard": "210304198504290847",
+            "level": "白金客户",
+            "isvip": true,
+            "sex": "女",
+            "birth": "1985-04-29",
+            "ext_fj": [
+                {
+                    "name": "***",
+                    "des": "***",
+                    "value": "***"
+                },
+                {
+                    "name": "***",
+                    "des": "***",
+                    "value": "***"
+                }
+            ]
+        }
+    ]
+}
